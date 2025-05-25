@@ -1,0 +1,16 @@
+
+# dependencies
+node_modules/
+
+# production
+build/
+
+# environment files
+.env
+
+# dotenv environment variable files
+.parcel-cache/
+
+
+
+dist/

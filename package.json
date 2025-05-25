@@ -1,0 +1,30 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "This is Namaste React",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanraj2408/NamasteReact.git"
+  },
+  "keywords": [],
+  "author": "\"Aman Raj\",",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amanraj2408/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/amanraj2408/NamasteReact#readme",
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-react": "^7.27.1",
+    "parcel": "^2.15.0"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}

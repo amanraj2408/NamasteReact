@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { IMG_URL } from "./utils/constants";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import HeroSection from "./components/HeroSection";
@@ -11,9 +10,11 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 
 const AppLayout = () => {
   return (
-    <div className="app">
+    <div className="min-h-screen bg-gray-50">
       <Header />
-      <Outlet />
+      <main className="mt-6">
+        <Outlet />
+      </main>
     </div>
   );
 };

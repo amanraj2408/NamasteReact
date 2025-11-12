@@ -1,13 +1,9 @@
 const Shimmer = () => {
   return (
-    <div className="shimmer">
-      <div className="shimmer-card" key={1}></div>
-      <div className="shimmer-card" key={2}></div>
-      <div className="shimmer-card" key={3}></div>
-      <div className="shimmer-card" key={4}></div>
-      <div className="shimmer-card" key={5}></div>
-      <div className="shimmer-card" key={6}></div>
-      <div className="shimmer-card" key={7}></div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {[1,2,3,4,5,6,7].map((i) => (
+        <div key={i} className="animate-pulse bg-gray-200 h-44 rounded-md"></div>
+      ))}
     </div>
   );
 };
